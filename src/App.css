@@ -1,0 +1,56 @@
+..app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.search input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.card {
+  background: #f3f4f6;
+  margin: 30px auto;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #ccc;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+.app {
+  position: relative;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.app::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3); /* dark transparent overlay */
+  z-index: 0;
+}
+
+.app > * {
+  position: relative;
+  z-index: 1;
+}

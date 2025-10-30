@@ -1,0 +1,26 @@
+.card {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #333;
+  margin: 30px auto;
+  width: 320px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #004e92;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
