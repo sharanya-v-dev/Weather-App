@@ -42,6 +42,7 @@ weather-now/
 │   └── index.js
 │
 ├── package.json
+├── Screenshot / images.jpg
 └── README.md
 
 ## 🧾 API Example
@@ -60,6 +61,10 @@ Example response:
     "weathercode": 2
   }
 }
+
+## Screenshot
+outlook.jpg  --> The output of the code.
+Specific-loc.jpg  ---> weather results based on specific location search.
 
 ## 💡 Future Enhancements
 
